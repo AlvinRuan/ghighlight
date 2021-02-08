@@ -1,0 +1,29 @@
+.game {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 30%;
+  }
+
+.game:hover {
+    opacity: 0.7;
+      -moz-transition: all 0.2s ease-out;  /* FF4+ */
+      -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+      -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+      -ms-transition: all 0.2s ease-out;  /* IE10? */
+      transition: all 0.2s ease-out; 
+      
+}  
+
+.image_background {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
